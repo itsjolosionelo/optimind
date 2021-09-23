@@ -24,7 +24,7 @@ Preview: https://optimind.netlify.app/
 
 ### Screenshot
 
-![asdf](https://lh3.googleusercontent.com/E0uto16WGkcrcaw0-yQ0X-eSlRBE9Z-ApC_15o_X7O652SuZ3J9lZci53gik2tQ1YRWUsuHlSCZBxpHP1cCg=w1366-h653)
+![Preview-Image](https://lh3.googleusercontent.com/BcgPGwxqOnqF_3G3knkoUmgv6x7htw6-4kH-6sCUIAflN_h3ljMXDiDfYhGTB9bOV-C0OUF8flN51mB7Z1SD=w1366-h653)
 
 #### Note:
 
