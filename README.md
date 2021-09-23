@@ -28,5 +28,5 @@ Preview: https://optimind.netlify.app/
 
 #### Note:
 
-The <b>Circular Std</b> works well on my machine but not on netlify preview link.<br>
-Please download the code and strictly use <b>Extract Here</b> to avoid unnecessary errors.
+The <b>Circular Std</b> font works well on my machine locally but not on netlify preview link.<br>
+Please download the code and strictly use <b>Extract Here</b> when unzipping the file to avoid unnecessary errors.
