@@ -21,3 +21,11 @@
 </table>
 
 Preview: https://optimind.netlify.app/
+
+### Screenshot
+
+![asdf](https://lh3.googleusercontent.com/E0uto16WGkcrcaw0-yQ0X-eSlRBE9Z-ApC_15o_X7O652SuZ3J9lZci53gik2tQ1YRWUsuHlSCZBxpHP1cCg=w1366-h653)
+
+#### Note:
+
+The <b>Circular Std</b> works well on my machine but not on netlify preview link. Please download the code and strictly use <b>Extract Here</b> to avoid unnecessary errors.
