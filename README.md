@@ -19,3 +19,5 @@
     <td>✔ CSS3/SCSS</td>
  </tr>
 </table>
+
+Preview: https://optimind.netlify.app/
