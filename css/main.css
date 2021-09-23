@@ -1,0 +1,412 @@
+@import url("http://fonts.cdnfonts.com/css/circular-std-book");
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue:regular");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+button,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+img,
+picture,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  -webkit-tap-highlight-color: transparent;
+}
+body img,
+body picture {
+  max-width: 100%;
+}
+body ul,
+body ol {
+  list-style: none;
+}
+body blockquote,
+body q {
+  quotes: none;
+}
+body blockquote:before,
+body blockquote:after,
+body q:before,
+body q:after {
+  content: "";
+  content: none;
+}
+body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+*::before,
+*::after {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 2;
+  font-family: "Circular Std", sans-serif;
+  font-size: clamp(1.2rem, 2vmin, 2rem);
+}
+body h1 {
+  font-size: clamp(4rem, 5vmin, 5rem);
+}
+body h2 {
+  font-size: clamp(2rem, 4vmin, 5rem);
+}
+body h3 {
+  font-size: clamp(1.7rem, 2.5vmin, 4rem);
+}
+body h4 {
+  font-size: clamp(1.2rem, 2.2vmin, 2.8rem);
+}
+body h5 {
+  font-size: clamp(1rem, 1.8vmin, 2rem);
+}
+body div,
+body button,
+body span,
+body applet,
+body object,
+body iframe,
+body h6,
+body p,
+body blockquote,
+body pre,
+body a,
+body abbr,
+body acronym,
+body address,
+body big,
+body cite,
+body code,
+body del,
+body dfn,
+body em,
+body img,
+body ins,
+body kbd,
+body q,
+body s,
+body samp,
+body small,
+body strike,
+body strong,
+body sub,
+body sup,
+body tt,
+body var,
+body b,
+body u,
+body i,
+body center,
+body dl,
+body dt,
+body dd,
+body ol,
+body ul,
+body li,
+body fieldset,
+body form,
+body label,
+body legend,
+body table,
+body caption,
+body tbody,
+body tfoot,
+body thead,
+body tr,
+body th,
+body td,
+body article,
+body aside,
+body canvas,
+body details,
+body embed,
+body figure,
+body figcaption,
+body footer,
+body header,
+body hgroup,
+body menu,
+body nav,
+body output,
+body ruby,
+body section,
+body input,
+body textarea,
+body select,
+body summary,
+body time,
+body mark,
+body audio,
+body video {
+  font: inherit;
+  color: inherit;
+  text-decoration: inherit;
+}
+body a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+body header ul {
+  font-family: "Circular Std Book";
+  text-transform: uppercase;
+}
+body header ul li:first-child {
+  color: white;
+}
+body .hero {
+  text-align: center;
+  color: white;
+}
+body .hero h3,
+body .hero h1 {
+  font-family: "Bebas Neue";
+}
+body .hero h3 {
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+body .hero h1 {
+  line-height: 80px;
+  letter-spacing: 5.6px;
+}
+body .hero .play h5 {
+  font-family: "Circular Std Book";
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+  font-weight: 400;
+}
+body .counter__plants, body .counter__employees, body .counter__years {
+  text-align: center;
+}
+body .counter__plants *, body .counter__employees *, body .counter__years * {
+  color: white;
+}
+body .counter__plants h1, body .counter__employees h1, body .counter__years h1 {
+  font-family: "Circular Std Black";
+}
+
+body {
+  background: url(../../../assets/img/Background.png);
+  min-height: 100vh;
+  cursor: default;
+}
+body .noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+header {
+  position: absolute;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+header img {
+  cursor: pointer;
+}
+header ul {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+header ul * {
+  cursor: pointer;
+}
+header ul li:first-child {
+  background: #020183;
+  padding: 2rem;
+}
+header ul li:not(first-child) {
+  padding-top: 2rem;
+}
+header ul li:not(last-child) {
+  margin-right: 2rem;
+}
+
+.hero {
+  height: 80vh;
+  background: url(../../../assets/img/Hero-Truck.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  z-index: -1;
+  display: grid;
+  place-content: center;
+}
+.hero h1 {
+  opacity: 0.8;
+  position: relative;
+  top: 2rem;
+}
+.hero h1 pre {
+  position: relative;
+  bottom: 2rem;
+}
+.hero h1 span {
+  background: #020183;
+  padding: 0 1rem;
+}
+.hero .play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 2rem;
+}
+.hero .play img {
+  height: 2.2rem;
+  margin-right: 1rem;
+}
+
+.counter {
+  margin: 0 auto;
+  margin-top: -6.5rem;
+  height: 20vh;
+  width: 50vw;
+  background-color: #020183;
+  display: flex;
+  padding: 3rem 0;
+}
+.counter > * {
+  flex: 1;
+  border-right: solid 0.1rem black;
+}
+.counter__plants, .counter__employees, .counter__years {
+  height: 100%;
+}
+.counter__plants *, .counter__employees *, .counter__years * {
+  position: relative;
+}
+.counter__plants h1, .counter__employees h1, .counter__years h1 {
+  top: -1.5rem;
+}
+.counter__plants h4, .counter__employees h4, .counter__years h4 {
+  bottom: 3rem;
+}

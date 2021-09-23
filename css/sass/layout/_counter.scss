@@ -1,0 +1,32 @@
+.counter {
+    margin: 0 auto;
+    margin-top: -6.5rem;
+    height: 20vh;
+    width: 50vw;
+    background-color: c(my-blue);
+    display: flex;
+    padding: 3rem 0;
+
+    &>* {
+        flex: 1;
+        border-right: solid .1rem black;
+    }
+
+    &__plants,
+    &__employees,
+    &__years {
+        height: 100%;
+
+        * {
+            position: relative;
+        }
+
+        h1 {
+            top: -1.5rem;
+        }
+
+        h4 {
+            bottom: 3rem;
+        }
+    }
+}

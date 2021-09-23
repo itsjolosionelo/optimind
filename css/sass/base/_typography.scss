@@ -1,0 +1,169 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 2;
+    font-family: 'Circular Std', sans-serif;
+    font-size: clamp(1.2rem, 2vmin, 2rem);
+
+    h1 {
+        font-size: clamp(4rem, 5vmin, 5rem);
+    }
+
+    h2 {
+        font-size: clamp(2rem, 4vmin, 5rem);
+    }
+
+    h3 {
+        font-size: clamp(1.7rem, 2.5vmin, 4rem);
+    }
+
+    h4 {
+        font-size: clamp(1.2rem, 2.2vmin, 2.8rem);
+    }
+
+    h5 {
+        font-size: clamp(1rem, 1.8vmin, 2rem);
+    }
+
+    div,
+    button,
+    span,
+    applet,
+    object,
+    iframe,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    input,
+    textarea,
+    select,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        font: inherit;
+        color: inherit;
+        text-decoration: inherit;
+    }
+
+    a:not([class]) {
+        text-decoration-skip-ink: auto;
+    }
+
+    header ul {
+        font-family: "Circular Std Book";
+        text-transform: uppercase;
+
+        li:first-child {
+            color: white;
+        }
+    }
+
+    .hero {
+        text-align: center;
+        color: white;
+
+        h3,
+        h1 {
+            font-family: 'Bebas Neue';
+        }
+
+        h3 {
+            letter-spacing: 2px;
+            font-weight: 400;
+        }
+
+        h1 {
+            line-height: 80px;
+            letter-spacing: 5.6px
+        }
+
+        .play h5 {
+            font-family: "Circular Std Book";
+            text-transform: uppercase;
+            letter-spacing: 2.2px;
+            font-weight: 400;
+        }
+    }
+
+    .counter {
+
+        &__plants,
+        &__employees,
+        &__years {
+            text-align: center;
+
+            * {
+                color: white;
+            }
+
+            h1 {
+                font-family: "Circular Std Black";
+            }
+        }
+    }
+}

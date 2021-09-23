@@ -1,0 +1,37 @@
+///////////////////////////////////////////////
+//MEDIA-QUERIES
+@mixin small {
+    @media (min-width: b(sm)) {
+        @content;
+    }
+}
+
+@mixin medium {
+    @media (min-width: b(md)) {
+        @content;
+    }
+}
+
+@mixin large {
+    @media (min-width: b(lg)) {
+        @content;
+    }
+}
+
+@mixin extra-large {
+    @media (min-width: b(xl)) {
+        @content;
+    }
+}
+
+
+///////////////////////////////////////////////
+//UTILS
+@mixin fonts {
+    @import url('http://fonts.cdnfonts.com/css/circular-std-book');
+    @import url('https://fonts.googleapis.com/css?family=Bebas+Neue:regular');
+}
+
+@mixin icons {
+    @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css);
+}
